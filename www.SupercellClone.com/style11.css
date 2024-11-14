@@ -1,0 +1,102 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.transparent-box {
+  background-color: rgba(236, 236, 236, 0.379); /* White background with 50% opacity */
+  border: 2px solid rgb(236, 236, 236); /* Light gray border */
+  padding: 35px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  border-radius: 20px; /* Rounded corners */
+}
+
+.p6 { 
+  text-decoration-line: none;
+}
+
+.logo {
+width: 50px;
+margin-bottom: 10px;
+}
+
+
+.login-container h2 {
+margin-bottom: 20px;
+font-size: 19px;
+color: #333;
+}
+
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+width: 100%;
+box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+padding: 12px;
+margin: 10px 0;
+border: 0px solid #000000;
+border-radius: 10px;
+font-size: 16px;
+}
+
+
+.login-button {
+background-color: #2a82e1;
+color: #000000;
+border: none;
+padding: 12px 0;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+width: 100%;
+margin-top: 20px;
+transition: background-color 0.3s ease;
+}
+
+
+.login-button:hover {
+background-color: #0040ff;
+}
+
+.login-container input:hover {
+background-color:rgba(203, 229, 229, 0.1)
+}
+
+.forgot-password {
+display: block;
+margin-top: 15px;
+font-size: 14px;
+color: #007BFF;
+text-decoration: none;
+}
+
+.forgot-password:hover {
+text-decoration: underline;
+}
+
+
+@media (max-width: 500px) {
+.login-container {
+width: 90%;
+padding: 20px;
+}
+}
+
+p{
+  text-decoration: none;
+}
+
+p2{
+  text-decoration: none;
+}
+p1{
+  text-decoration: none;
+}
